@@ -1,0 +1,31 @@
+[user]
+	email = akirk@voyagersystems.co.uk
+	name = Adrian Kirk
+
+[alias]
+# Common
+ci = commit
+co = checkoutj
+com = checkout master
+cod = checkout develop
+st = status
+br = branch
+
+f = fetch
+
+pom = pull origin master
+pod = pull origin develop
+
+# Logging
+l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative -10 # Nice pretty log
+hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short -10
+last = log -1 HEAD
+
+out = log origin/master..HEAD --abbrev-commit --pretty=oneline
+lb = log --abbrev-commit --pretty=oneline --no-merges master..HEAD
+unstage = reset HEAD --
+
+
+[core]
+	excludesfile =
+	autocrlf = false
