@@ -1,3 +1,3 @@
 #!/bin/sh
 
-cp -f .gitconfig ~/
+cp -f ~/dotfiles/.gitconfig ~/
