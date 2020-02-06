@@ -5,7 +5,7 @@
 [alias]
 # Common
 ci = commit
-co = checkoutj
+co = checkout
 com = checkout master
 cod = checkout develop
 st = status
